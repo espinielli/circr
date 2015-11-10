@@ -1,0 +1,13 @@
+Package: circr
+Type: Package
+Title: Data Preparation for Null2's D3.js Circular Plot
+Version: 0.1.0
+Date: 2015-11-10
+Authors@R: person("Enrico", "Spinielli", email = "enrico.spinielli@gmail.com",
+                  role = c("aut", "cre"))
+Description: Circr is a set of R functions that help in the preparation of data for a circular plot.
+  Typically you have origin/destination/measure data in a CSV file and you want to compile it in a format
+  which is accepted by the D3.js circular plot as developed by Null2.
+License: MIT
+LazyData: TRUE
+Imports: dplyr
